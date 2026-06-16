@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- <style src="Login.css"></style> -->
+    <link rel="stylesheet" href="./Style/Login.css">
+</head>
+
+<body>
+    <div class="logo-container">
+        <div>
+            <img src="./Assets/Logo.png" alt="Zenith Stock Logo" class="logo">
+            <h1>ZENITH STOCK</h1>
+            <p>Intelligent. Efficient. Global.</p>
+        </div>
+
+
+        <!-- Log-in -->
+        <div class="box">
+            <div id="loginForm">
+                <h2>Login</h2>
+
+                <input type="email" id="loginEmail" placeholder="Email Address">
+                <input type="password" id="loginPassword" placeholder="Password">
+
+                <!-- <input type="email" id="loginEmail"> -->
+                <!-- <input type="password" id="loginPassword"> -->
+
+                <button onclick="login()">Login</button>
+                <!-- <button onclick="alert('Working')">Login</button> -->
+
+                <!-- <p onclick="showSignup()" style="cursor:pointer;color:blue;"> -->
+                <p>
+                    <a href="Sign up/Signup.html"> Create New Account</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/12.0.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/12.0.0/firebase-auth-compat.js"></script>
+
+
+
+    <script src="./script/login.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-image: url(./Assets/Full.png); */
+    background: url(./Assets/Background.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.log-out{
+    border: 2px solid black;
+    border-top: none;
+}
+
+.img {
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.login-box {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.logo-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    border-radius: 250%;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.logo-container h1 {
+    margin: 0;
+    color: #1e3a5f;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.logo-container p {
+    margin-top: 5px;
+    color: #777;
+    font-size: 14px;
+    height: 28px;
+    color: #2c4258;
+}
+
+.box {
+    border: 2px black solid;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.link {
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    color: blue;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#signupForm,
+#loginForm,
+.logo-container,
+.box {
+    background: #fff;
+    width: 100%;
+    max-width: 400px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    /* border: 1px solid; */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+    #signupForm,
+    #loginForm,
+    .box {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    input,
+    button {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+
+    #signupForm,
+    #loginForm,
+    .box {
+        max-width: 500px;
+        padding: 20px;
+    }
+}
